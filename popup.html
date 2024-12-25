@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Replace Letters A to number</title>
+        <style>
+            body {
+                font-family: "Roboto Light", sans-serif;
+                padding: 10px;
+                width: 300px;
+                text-align: center;
+                background-color: #fff;
+            }
+            .title {
+                text-transform: uppercase;
+            }
+            button {
+                text-transform: capitalize;
+                margin: 5px 0;
+                padding: 10px;
+                width: 100%;
+                background-color: #4CAF50;
+                border: 2px solid #307132;
+                border-radius: 14px;
+                color: white;
+                cursor: pointer;
+                font-size: 16px;
+            }
+            button.stop {
+                background-color: #f44336;
+                border: 2px solid #85241c;
+            }
+        </style>
+    </head>
+    <body>
+        <h3 class="title">Replace letter to number</h3>
+        <button id="start">Start replacing</button>
+        <button id="stop" class="stop">Stop replacing / Restoring</button>
+    </body>
+    <script src="popup.js"></script>
+</html>
